@@ -1,0 +1,59 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            valor_venta   R-squared:                       0.162
+Model:                            OLS   Adj. R-squared:                  0.161
+Method:                 Least Squares   F-statistic:                     296.1
+Date:                Thu, 19 Oct 2023   Prob (F-statistic):               0.00
+Time:                        22:26:55   Log-Likelihood:            -9.5159e+05
+No. Observations:               45981   AIC:                         1.903e+06
+Df Residuals:                   45950   BIC:                         1.904e+06
+Df Model:                          30                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+const                             1.481e+19   1.43e+20      0.104      0.917   -2.65e+20    2.94e+20
+Pasajeros saliendo                2.221e+07   1.55e+06     14.334      0.000    1.92e+07    2.52e+07
+Año                               1.941e+07   1.12e+06     17.348      0.000    1.72e+07    2.16e+07
+Día                               7.271e+06    1.1e+06      6.619      0.000    5.12e+06    9.42e+06
+Hora entera                       9.234e+07   1.22e+06     75.461      0.000    8.99e+07    9.47e+07
+Hdi2021                           2.281e+07   1.32e+06     17.305      0.000    2.02e+07    2.54e+07
+Pasajeros por Muelle y Hora      -1.033e+07   1.23e+06     -8.406      0.000   -1.27e+07   -7.92e+06
+Sala_a1                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a10                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a11                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a12                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a13                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a14                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a2                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a3                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a4                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a5                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a6                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a7a                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a7b                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a7c                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a8                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a9a                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_a9b                           9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_en                            9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Sala_rori                          9.35e+17      9e+18      0.104      0.917   -1.67e+19    1.86e+19
+Tipo aerolínea_charter           -1.253e+19   1.21e+20     -0.104      0.917   -2.49e+20    2.24e+20
+Tipo aerolínea_legacy            -1.253e+19   1.21e+20     -0.104      0.917   -2.49e+20    2.24e+20
+Tipo aerolínea_low cost          -1.253e+19   1.21e+20     -0.104      0.917   -2.49e+20    2.24e+20
+Tipo aerolínea_regional          -1.253e+19   1.21e+20     -0.104      0.917   -2.49e+20    2.24e+20
+Continente Destino_Asia          -3.217e+18    3.1e+19     -0.104      0.917   -6.39e+19    5.75e+19
+Continente Destino_Europe        -3.217e+18    3.1e+19     -0.104      0.917   -6.39e+19    5.75e+19
+Continente Destino_North America -3.217e+18    3.1e+19     -0.104      0.917   -6.39e+19    5.75e+19
+Continente Destino_South America -3.217e+18    3.1e+19     -0.104      0.917   -6.39e+19    5.75e+19
+==============================================================================
+Omnibus:                      748.593   Durbin-Watson:                   1.990
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              796.644
+Skew:                           0.302   Prob(JB):                    1.03e-173
+Kurtosis:                       3.228   Cond. No.                     1.35e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 5.85e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
